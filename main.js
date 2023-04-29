@@ -1,10 +1,9 @@
-const pMesage = document.querySelector("#pMessage");
-const btnChangeColor = document.querySelector("#btnChangeColor");
+const div_ul = document.querySelector("#div_ul");
+const ul_links = document.querySelector("#ul_links");
 
-btnChangeColor.addEventListener("click", fnChangeColor);
-function fnChangeColor () {
-  let random = Math.floor(Math.random() * 1000);
-  console.log(random);
-  pMesage.setAttribute("style", "color: #" + String(random))
 
+window.addEventListener("load", fnGenerateUl);
+
+function fnGenerateUl () {
+  
 }
